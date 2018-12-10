@@ -1,0 +1,11 @@
+#Xslt
+
+
+Transform
+M
+XmlDocument
+(Document)XmlDocument;(StyleSheet)XmlDocument;
+TransformToString
+M
+s
+(Document)XmlDocument;(StyleSheet)XmlDocument;

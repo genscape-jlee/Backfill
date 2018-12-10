@@ -1,0 +1,71 @@
+outguess
+------------------------------------------
+
+Universal Steganographic tool for PNM and JPG files
+
+OutGuess is a universal steganographic tool that allows the insertion
+of hidden information into the redundant bits of data sources. The
+nature of the data source is irrelevant to the core of OutGuess. The
+program relies on data specific handlers that will extract redundant
+bits and write them back after modification. In this version the PNM
+and JPEG image formats are supported.
+
+Runtime requirements:
+  cygwin
+
+Build requirements:
+  cygwin
+
+Canonical homepage:
+  http://www.outguess.org
+  http://packages.debian.org/outguess
+
+Canonical download:
+  See above
+
+Version control repository:
+
+Mailing list:
+
+Forum / Wiki:
+
+IRC channel:
+
+Upstream contact:
+  Maintainer: Niels Provos <provos@citi.umich.edu>
+  Bugs: Niels Provos <provos@citi.umich.edu>
+
+License:
+  GPL
+
+Language:
+  C
+
+------------------------------------
+
+Build instructions:
+  unpack outguess-0.2-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+    unpacked under /usr/src automatically
+  cd /usr/src
+  ./outguess*.sh all
+
+This will create:
+  outguess-0.2-1.tar.bz2
+  outguess-0.2-1-src.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary distro:
+  See content of *.tar.gz
+
+------------------
+
+Port Notes:
+- Makefile: target [install]: Add DESTDIR.
+
+----- version 0.2-1 -----
+- Initial release 2008-03-01 Jari Aalto
+
+Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
+Copyright (C) 2008 Jari Aalto; Licensed under GPL v2 or later

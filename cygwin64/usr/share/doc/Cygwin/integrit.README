@@ -1,0 +1,73 @@
+integrit
+------------------------------------------
+
+File integrity checker, like Tripware
+
+A simple yet secure alternative to products like tripwire. It has a
+small memory footprint, uses up-to-date cryptographic algorithms, and
+has features that make sense (like including the MD5 checksum of newly
+generated databases in the report.
+
+Install note:
+  See info pages and see example config at
+  /usr/share/doc/integrit-*/examples/*.conf
+
+Runtime requirements:
+  cygwin
+
+Build requirements:
+  cygwin
+
+Canonical homepage:
+  http://sourceforge.net/projects/integrit
+  http://packages.debian.org/unstable/integrit
+
+Canonical download:
+  See above
+
+Version control repository:
+  See sourceforge
+
+Mailing list:
+  See Sourceforge
+
+Forum / Wiki:
+
+IRC channel:
+
+Upstream contact:
+  Author: Ed L Cashin <ecashin@users.sourceforge.net>
+  Bugs: sourceforge
+
+License:
+  GPL
+
+Language:
+  C
+
+------------------------------------
+
+Build instructions:
+  unpack integrit-*-src.tar.bz2
+    if you use setup to install this src package, it will be
+    unpacked under /usr/src automatically
+  cd /usr/src
+  ./integrit*.sh all
+
+-------------------------------------------
+
+Files included in the binary distro:
+  See content of *.tar.gz
+
+------------------
+
+Port Notes:
+- No manual page. Copied from Debian.
+- Makefile.in: SBINDIR  = $(DESTDIR)@sbindir@
+- doc/Makefile.in: MANDIR = $(DESTDIR)@mandir@
+
+----- version 4.1-1 -----
+- Initial release 2008-02-27 Jari Aalto
+
+Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
+Copyright (C) 2008 Jari Aalto; Licensed under GPL v2 or later

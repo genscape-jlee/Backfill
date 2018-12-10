@@ -1,0 +1,17 @@
+.XmlElementAttributes
+.XmlReader.Node
+.XmlReader.Node.Attributes
+.XmlReaderReadFlags
+XmlCDATANode
+XmlCommentNode
+XmlDocument
+XmlElement!
+XmlExplorer
+XmlNode!
+XmlReaderNodeType!
+XmlTextNode
+_XmlAttrNode
+_XmlReader
+XmlReader
+XmlWriter
+_XmlWriterDTD

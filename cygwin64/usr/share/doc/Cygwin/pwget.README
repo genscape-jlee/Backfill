@@ -1,0 +1,76 @@
+pwget
+------------------------------------------
+
+Downloader utility which resembles wget (implemented in Perl)
+
+Similar to wget(1) but it can use categorized configuration files,
+analyze Web pages, and search for download links as instructed.
+Instead of absolute links, it contains heuristics to track newer
+versions of files.
+
+Runtime requirements:
+  perl
+  wget
+
+Build requirements:
+  perl
+
+Canonical homepage:
+  http://freecode.com/projects/perlwebget
+  http://packages.debian.org/pwget
+
+Canonical download:
+  See above
+
+Version control repository:
+  https://savannah.nongnu.org/git/?group=perl-webget
+  https://github.com/jaalto/project--perl-webget
+
+Mailing list:
+
+Forum / Wiki:
+
+IRC channel:
+
+Upstream contact:
+  Maintainer: Jari Aalto <jari.aalto@cante.net>
+  Bugs: https://github.com/jaalto/project--perl-webget/issues
+
+License:
+  GPL-2+
+
+Language:
+  Perl
+
+------------------------------------------
+
+Build instructions:
+  unpack pwget-*-src.tar.bz2
+    if you use setup to install this source package, it will be
+    unpacked under /usr/src automatically
+  cd /usr/src
+  ./pwget*.sh all
+
+------------------------------------------
+
+Files included in the binary distribution:
+  See Cygwin package archive
+
+------------------------------------------
+
+Port Notes:
+
+----- version 2015.0927+git36776ae-1 -----
+- New upstream release 2015-10-15 Jari Aalto
+
+----- version 2013.0911+gita6fa3ca-1 -----
+- New upstream release 2013-09-11 Jari Aalto
+
+----- version 2013.0911+gita6fa3ca-1 -----
+- New upstream release 2013-09-11 Jari Aalto
+
+----- version 2012.0202+git3b9d015-1 -----
+- Initial release 2012-02-02 Jari Aalto
+
+Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
+Copyright (C) 2012-2015 Jari Aalto; Licensed under GPL v2 or later

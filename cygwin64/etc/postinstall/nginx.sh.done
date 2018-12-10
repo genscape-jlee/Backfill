@@ -1,0 +1,54 @@
+if [ ! -f /etc/nginx/fastcgi.conf ]
+then
+    /usr/bin/mkdir -p /etc/nginx
+    /usr/bin/cp /etc/defaults/etc/nginx/fastcgi.conf /etc/nginx/fastcgi.conf
+fi
+
+if [ ! -f /etc/nginx/fastcgi_params ]
+then
+    /usr/bin/mkdir -p /etc/nginx
+    /usr/bin/cp /etc/defaults/etc/nginx/fastcgi_params /etc/nginx/fastcgi_params
+fi
+
+if [ ! -f /etc/nginx/koi-utf ]
+then
+    /usr/bin/mkdir -p /etc/nginx
+    /usr/bin/cp /etc/defaults/etc/nginx/koi-utf /etc/nginx/koi-utf
+fi
+
+if [ ! -f /etc/nginx/koi-win ]
+then
+    /usr/bin/mkdir -p /etc/nginx
+    /usr/bin/cp /etc/defaults/etc/nginx/koi-win /etc/nginx/koi-win
+fi
+
+if [ ! -f /etc/nginx/mime.types ]
+then
+    /usr/bin/mkdir -p /etc/nginx
+    /usr/bin/cp /etc/defaults/etc/nginx/mime.types /etc/nginx/mime.types
+fi
+
+if [ ! -f /etc/nginx/nginx.conf ]
+then
+    /usr/bin/mkdir -p /etc/nginx
+    /usr/bin/cp /etc/defaults/etc/nginx/nginx.conf /etc/nginx/nginx.conf
+fi
+
+if [ ! -f /etc/nginx/scgi_params ]
+then
+    /usr/bin/mkdir -p /etc/nginx
+    /usr/bin/cp /etc/defaults/etc/nginx/scgi_params /etc/nginx/scgi_params
+fi
+
+if [ ! -f /etc/nginx/uwsgi_params ]
+then
+    /usr/bin/mkdir -p /etc/nginx
+    /usr/bin/cp /etc/defaults/etc/nginx/uwsgi_params /etc/nginx/uwsgi_params
+fi
+
+if [ ! -f /etc/nginx/win-utf ]
+then
+    /usr/bin/mkdir -p /etc/nginx
+    /usr/bin/cp /etc/defaults/etc/nginx/win-utf /etc/nginx/win-utf
+fi
+

@@ -1,0 +1,57 @@
+README: Pwget - A Perl derivation of wget
+-----------------------------------------
+
+Pwget is similar to wget[1] but it can use categorized configuration
+files, analyze Web pages, and "search" for download links as
+instructed. Instead of absolute links, it contains heuristics to track
+newer versions of files.
+
+The source package directories:
+
+    bin/            The program and system manual page (*.1)
+    doc/            Documentation
+
+Important files
+
+    COPYING         GPL v2 or later Licence
+    INSTALL         Install instructions
+    bin/ChangeLog   Project change records
+
+Project details
+
+    Homepage
+      http://freecode.com/projects/perlwebget
+
+    To report bugs
+      See freecode page
+
+    Source code repository
+      See freecode page
+
+    Depends
+      Perl 5.10+
+
+      Standard Perl libraries:
+
+	   Net::FTP		[Debian package: perl-modules]
+	   LWP::UserAgent	[Debian package: libwww-perl]
+
+      wget(1) for Sourceforge downloads [1].
+      t2html for generating documentation [2] from scratch (optional).
+
+References
+
+    [1] http://www.gnu.org/software/wget
+    [2] http://freecode.com/projects/perl-text2html
+
+Copyright
+
+    Copyright (C) 1996-2012 Jari Aalto
+
+License
+
+    This program is free software; you can redistribute and/or modify
+    program under the terms of GNU General Public license either version 2
+    of the License, or (at your option) any later version.
+
+End of file

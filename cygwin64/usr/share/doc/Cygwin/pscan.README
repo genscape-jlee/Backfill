@@ -1,0 +1,93 @@
+pscan
+------------------------------------------
+
+Format string security checker for C files
+
+Problem scanner which attempts to scan C source files for common function
+abuses, which often lead to security problems. This program will scan
+source files for functions that use variadic functions and warn of
+potential abuses. It is a useful tool for those performing source code
+audits. C source files are scanned for problematic uses of printf
+style functions, such as sprintf(buffer, variable).
+
+See also Linux journal article "Code Scanners for Better Code"
+Saturday, January 26, 2002 by Jose Nazario at
+http://www.linuxjournal.com/article/5673
+
+Runtime requirements:
+  cygwin
+
+Build requirements:
+  cygwin
+
+Canonical homepage:
+  http://packages.debian.org/pscan
+
+Canonical download:
+  See above
+
+Version control repository:
+
+Mailing list:
+
+Forum / Wiki:
+
+IRC channel:
+
+Upstream contact:
+  http://freshmeat.net/~adekok/
+  Author: Alan DeKok (2000) <aland@ox.org>, (2007) <aland@freeradius.org>
+  Bugs:
+
+License:
+  Custom
+
+  Makefile:
+  This Makefile is free software; Alan DeKok
+  gives unlimited permission to copy and/or distribute it,
+  with or without modifications, as long as this notice is preserved.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY, to the extent permitted by law; without
+  even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+  PARTICULAR PURPOSE.
+
+Language:
+  C
+
+------------------------------------
+
+Build instructions:
+  unpack pscan-1.2-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+    unpacked under /usr/src automatically
+  cd /usr/src
+  ./pscan*.sh all
+
+This will create:
+  pscan-1.2-1.tar.bz2
+  pscan-1.2-1-src.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary distro:
+
+/usr/bin/pscan.exe
+/usr/share/doc/Cygwin/pscan-1.2.README
+/usr/share/doc/pscan-1.2/COPYING
+/usr/share/doc/pscan-1.2/README
+/usr/share/man/man1/pscan.1.gz
+
+------------------
+
+Port Notes:
+
+- Makefile: rewrote target 'install'. Fixed Flex linking with -lfl
+- No manual page. Copied one from Debian.
+
+----- version 1.2-1 -----
+- Initial release 2007-12-04 Jari Aalto
+- This port is based on Debian source.
+
+Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
+Copyright (C) 2007 Jari Aalto; Licenced under GPL v2 or later
